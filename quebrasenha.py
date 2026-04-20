@@ -51,7 +51,7 @@ with zipfile.ZipFile(zip_path) as z:
         try:
             print(f"Testando: {senha}")
             z.extractall(pwd=senha.encode())
-            print(f"\n🔥 SENHA ENCONTRADA: {senha}\n")
+            print(f"\n SENHA ENCONTRADA: {senha}\n")
             break
         except:
             pass
